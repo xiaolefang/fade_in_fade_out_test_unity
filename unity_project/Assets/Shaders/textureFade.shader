@@ -17,8 +17,8 @@ Shader "Custom/Fade" {
 			LOD 200
 
 			Blend SrcAlpha OneMinusSrcAlpha
-			ZWrite Off
-			AlphaTest Greater 0.0
+			// ZWrite Off
+			// AlphaTest Greater 0.0
 
 			CGPROGRAM
 			#pragma vertex vert
